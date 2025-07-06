@@ -2,16 +2,26 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+* Install Dependencies - npm install
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* Run Dev server - npm run dev
+
+* Folder Structure- /app         
+→ Pages (if using App Router)
+/components   → Reusable UI components (Footer, ContactForm, etc.)
+/public       → Static assets (images, videos)
+/styles       → Global Tailwind styles
+tailwind.config.js
+next.config.js
+
+* Third party Linraries-                                        
+
+ `framer-motion`          | Animations on scroll, transitions 
+ `next/image`             | Optimized image loading/resizing 
+ `tailwindcss`            | Utility-first styling             
+ `@headlessui` (optional) | For modal/dialog accessibility    
+
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
