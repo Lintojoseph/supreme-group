@@ -14,7 +14,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 tailwind.config.js
 next.config.js
 
-* Third party Linraries-                                        
+* Third party Libraries-                                        
 
  `framer-motion`          | Animations on scroll, transitions 
  `next/image`             | Optimized image loading/resizing 
